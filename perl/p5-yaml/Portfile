@@ -1,0 +1,17 @@
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         YAML 0.71
+maintainers         pisco.ch:mfernandez
+description         YAML loader/dumper module
+long_description    The YAML.pm module implements a YAML Loader and Dumper \
+                    based on the YAML 1.0 specification.  YAML is a \
+                    generic data serialization language that is optimized \
+                    for human readability.  It can be used to express the \
+                    data structures of most modern programming languages.
+
+platforms           darwin
+
+checksums           md5 d0f7cf232dd43c28c0e3767d672d6887 \
+                    sha1 4d75e95921fedfd570cf8eae29b02452aeb1af16 \
+                    rmd160 c5266aef79ede08e59e9cd63e94cf2427443f858

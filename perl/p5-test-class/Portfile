@@ -1,0 +1,17 @@
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         Test-Class 0.33
+maintainers         pisco.ch:mfernandez
+description         Easily create test classes in an xUnit/JUnit style
+long_description    Test::Class provides a simple way of creating classes and objects \
+                    to test your code in an xUnit style.
+platforms           darwin
+
+checksums           md5 becdbdfed6bf83611c82853b6506c77a \
+                    sha1 b699f66349f8de81692b0c70af0f2c0ec6bb48f7 \
+                    rmd160 81e23e31b2ef39a56dc6cbc217ffa2638ea33551
+
+depends_lib-append \
+                port:p5-test-exception \
+                port:p5-devel-symdump

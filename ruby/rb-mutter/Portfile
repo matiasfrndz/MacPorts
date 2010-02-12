@@ -1,0 +1,14 @@
+PortSystem          1.0
+PortGroup           ruby 1.0
+
+ruby.setup          mutter 0.5.3 gem {} rubyforge_gem
+
+maintainers         pisco.ch:mfernandez
+description         the tiny command-line interface library with lots of style.
+long_description    ${description}
+homepage            http://github.com/cloudhead/mutter
+platforms           darwin
+
+checksums           md5 11acb53403e2fb2755e0ac4270b3f98b \
+                    rmd160 bc9d4119522449ecf2f7a76ccb14cb09e196c042 \
+                    sha1 20d34b2a1e053e555d6dff358330ce821b9c6daa

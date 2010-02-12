@@ -1,0 +1,12 @@
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         IPC-Run3 0.043
+maintainers         pisco.ch:mfernandez
+description         run a subprocess with input/ouput redirection
+long_description    $description
+platforms           darwin
+
+checksums           md5 ef3c073f900bcc9c3e30e91f1fc00fda \
+                    sha1 d0758feaa39f0a3d7d77120ab0587e6324a466b7 \
+                    rmd160 ea8192c7a5475705dc69ac8ad65e1c9abace684e

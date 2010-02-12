@@ -1,0 +1,16 @@
+PortSystem          1.0
+PortGroup           ruby 1.0
+
+ruby.setup          less 1.2.21 gem {} rubyforge_gem
+
+maintainers         pisco.ch:mfernandez
+description         LESS extends CSS with: variables, mixins, operations and nested rules.
+long_description    ${description}
+homepage            http://lesscss.org/
+platforms           darwin
+
+depends_lib-append  port:rb-treetop port:rb-mutter
+
+checksums           md5 de6924111ca1f4601f813d376d6f1746 \
+                    rmd160 fc7ef273bc90d67d1237e27a027a0db93d929ed2 \
+                    sha1 c01e27ff7048cedd75f1dd03a31451264735331d
